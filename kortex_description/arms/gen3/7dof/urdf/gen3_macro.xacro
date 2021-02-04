@@ -96,7 +96,7 @@
         link="${prefix}half_arm_1_link" />
       <axis
         xyz="0 0 1" />
-      <limit lower="-2.41" upper="2.41" effort="39" velocity="1.3963" />
+      <limit lower="-2.2" upper="2.2" effort="39" velocity="1.3963" />
     </joint>
     <link name="${prefix}half_arm_2_link">
       <inertial>
@@ -236,7 +236,7 @@
         link="${prefix}spherical_wrist_2_link" />
       <axis
         xyz="0 0 1" />
-      <limit lower="-2.23" upper="2.23" effort="9" velocity="1.2218" />
+      <limit lower="-2" upper="2" effort="9" velocity="1.2218" />
     </joint>
     <xacro:if value="${vision}">
     <link name="${prefix}bracelet_link">
